@@ -1,7 +1,7 @@
 
 /**
  * getCalendar(): called when we have input on date
- * Renderning our calendar with data related to the selecgted day.
+ * Renderning our calendar with data related to the selected day.
  * 
  */
 function getCalendar() {
@@ -10,7 +10,7 @@ function getCalendar() {
 	// getting the date of the first day in the month
 	const date = new Date(date_input.getFullYear(),date_input.getMonth(),1);
 	const days = [];
-	const week_days = [{day:"Sun", id:0},{day:"Mon", id:1},{day:"Teu", id:2},
+	const week_days = [{day:"Sun", id:0},{day:"Mon", id:1},{day:"Tue", id:2},
 						{day:"Wed", id:3},{day:"Thu", id:4},{day:"Fri", id:5},
 						{day:"Sat", id:6} 
 					  ];
@@ -37,7 +37,7 @@ function getCalendar() {
 function _showCalendarTable(days, week_days){
 	
 	//empty the table if it's already in the DOM
-	$("#table").empty();
+	$("#table").empty().hide();
 	
 	//construct the table
 	if(days.length){	
