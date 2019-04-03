@@ -1,0 +1,32 @@
+.weekend{
+	background-color:#ff6666;
+}
+.business{
+	background-color:#d9ffb3;
+}
+.searched{
+	background-color:#ffccee;
+}
+
+.no_border{
+	border:none;
+}
+
+table {
+    margin-left: 20px;
+	position: relative;	
+	font-size: 7px;
+}
+
+table, td {
+  border-radius: 2px;
+  border: 1px solid coral;
+  color: blue;
+}
+
+#date{
+	margin: 0 0 20px 20px;
+}
+
+
+
