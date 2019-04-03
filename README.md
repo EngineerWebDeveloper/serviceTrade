@@ -5,4 +5,7 @@ To run this project, you need only to download or clone the project, when you ha
 Now open the index.html file in your browser.
 You should find a date input, choose any date, then make sure we have a small calendar displayed, with red color for weekend days, green color for business days, and pink for the selected day.
 
+Find attached the screenshots.
+table is 121*28 for visibility.
+
 
