@@ -7,5 +7,5 @@ You should find a date input, choose any date, then make sure we have a small ca
 
 Find attached the screenshots.
 table is 100*80 for visibility, we can change it in the css.
-
+Tested using Chrome and Firefox.
 
