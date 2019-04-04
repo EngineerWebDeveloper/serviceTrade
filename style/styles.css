@@ -1,11 +1,11 @@
 .weekend{
-	background-color:#ff6666;
+	background-color:#a3c2c2;
 }
 .business{
 	background-color:#d9ffb3;
 }
 .searched{
-	background-color:#ffccee;
+	background-color:#ff4d4d
 }
 
 .no_border{
@@ -15,10 +15,10 @@
 table {
     margin-left: 20px;
 	position: relative;	
-	font-size: 7px;
+	font-size: 5px;
 }
 
-table, td {
+ td {
   border-radius: 2px;
   border: 1px solid coral;
   color: blue;
